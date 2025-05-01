@@ -27,3 +27,13 @@ canvas {
   image-rendering: crisp-edges;
 }
 
+div.top-bar {
+  top: 10px;
+  position: absolute;
+  max-width: 100%;
+  left:50%;
+  transform:translateX(-50%);
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(0,0,0,0.4);
+}
